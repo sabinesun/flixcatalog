@@ -1,0 +1,163 @@
+export const trendingMovieData = {
+  page: 1,
+  results: [
+    {
+      adult: false,
+      backdrop_path: "/8uVKfOJUhmybNsVh089EqLHUYEG.jpg",
+      id: 693134,
+      title: "Dune: Part Two",
+      original_language: "en",
+      original_title: "Dune: Part Two",
+      overview:
+        "Follow the mythic journey of Paul Atreides as he unites with Chani and the Fremen while on a path of revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and the fate of the known universe, Paul endeavors to prevent a terrible future only he can foresee.",
+      poster_path: "/8b8R8l88Qje9dn9OE8PY05Nxl1X.jpg",
+      media_type: "movie",
+      genre_ids: [878, 12],
+      popularity: 1174.289,
+      release_date: "2024-02-27",
+      video: false,
+      vote_average: 8.422,
+      vote_count: 1584,
+    },
+    {
+      adult: false,
+      backdrop_path: "/bQS43HSLZzMjZkcHJz4fGc7fNdz.jpg",
+      id: 792307,
+      title: "Poor Things",
+      original_language: "en",
+      original_title: "Poor Things",
+      overview:
+        "Brought back to life by an unorthodox scientist, a young woman runs off with a debauched lawyer on a whirlwind adventure across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for equality and liberation.",
+      poster_path: "/kCGlIMHnOm8JPXq3rXM6c5wMxcT.jpg",
+      media_type: "movie",
+      genre_ids: [878, 10749, 35],
+      popularity: 1584.682,
+      release_date: "2023-12-07",
+      video: false,
+      vote_average: 7.906,
+      vote_count: 2226,
+    },
+  ],
+};
+
+export const trendingTvData = {
+  page: 1,
+  results: [
+    {
+      adult: false,
+      backdrop_path: "/5zmiBoMzeeVdQ62no55JOJMY498.jpg",
+      id: 126308,
+      name: "Shōgun",
+      original_language: "en",
+      original_name: "Shōgun",
+      overview:
+        "In Japan in the year 1600, at the dawn of a century-defining civil war, Lord Yoshii Toranaga is fighting for his life as his enemies on the Council of Regents unite against him, when a mysterious European ship is found marooned in a nearby fishing village.",
+      poster_path: "/7O4iVfOMQmdCSxhOg1WnzG1AgYT.jpg",
+      media_type: "tv",
+      genre_ids: [18, 10768],
+      popularity: 1160.96,
+      first_air_date: "2024-02-27",
+      vote_average: 8.793,
+      vote_count: 215,
+      origin_country: ["US"],
+    },
+    {
+      adult: false,
+      backdrop_path: "/zW0v2YT74C6tRafzqqBkfSqLAN0.jpg",
+      id: 52814,
+      name: "Halo",
+      original_language: "en",
+      original_name: "Halo",
+      overview:
+        "Depicting an epic 26th-century conflict between humanity and an alien threat known as the Covenant, the series weaves deeply drawn personal stories with action, adventure and a richly imagined vision of the future.",
+      poster_path: "/hmHA5jqxN3ESIAGx0jAwV7TJhTQ.jpg",
+      media_type: "tv",
+      genre_ids: [10759, 10765],
+      popularity: 2974.225,
+      first_air_date: "2022-03-24",
+      vote_average: 8.331,
+      vote_count: 2409,
+      origin_country: ["US"],
+    },
+  ],
+};
+
+export const discoverMovieData = {
+  page: 1,
+  results: [
+    {
+      adult: false,
+      backdrop_path: "/deLWkOLZmBNkm8p16igfapQyqeq.jpg",
+      genre_ids: [14, 12, 28],
+      id: 763215,
+      original_language: "en",
+      original_title: "Damsel",
+      overview:
+        "A young woman's marriage to a charming prince turns into a fierce fight for survival when she's offered up as a sacrifice to a fire-breathing dragon.",
+      popularity: 1986.779,
+      poster_path: "/sMp34cNKjIb18UBOCoAv4DpCxwY.jpg",
+      release_date: "2024-03-08",
+      title: "Damsel",
+      video: false,
+      vote_average: 7.3,
+      vote_count: 734,
+    },
+    {
+      adult: false,
+      backdrop_path: "/gJL5kp5FMopB2sN4WZYnNT5uO0u.jpg",
+      genre_ids: [28, 12, 16, 35, 10751],
+      id: 1011985,
+      original_language: "en",
+      original_title: "Kung Fu Panda 4",
+      overview:
+        "Po is gearing up to become the spiritual leader of his Valley of Peace, but also needs someone to take his place as Dragon Warrior. As such, he will train a new kung fu practitioner for the spot and will encounter a villain called the Chameleon who conjures villains from the past.",
+      popularity: 1929.496,
+      poster_path: "/kDp1vUBnMpe8ak4rjgl3cLELqjU.jpg",
+      release_date: "2024-03-02",
+      title: "Kung Fu Panda 4",
+      video: false,
+      vote_average: 6.842,
+      vote_count: 129,
+    },
+  ],
+};
+
+export const discoverTvData = {
+  page: 1,
+  results: [
+    {
+      adult: false,
+      backdrop_path: "/jWXrQstj7p3Wl5MfYWY6IHqRpDb.jpg",
+      genre_ids: [10763],
+      id: 94722,
+      origin_country: ["DE"],
+      original_language: "de",
+      original_name: "Tagesschau",
+      overview:
+        "German daily news program, the oldest still existing program on German television.",
+      popularity: 4029.532,
+      poster_path: "/7dFZJ2ZJJdcmkp05B9NWlqTJ5tq.jpg",
+      first_air_date: "1952-12-26",
+      name: "Tagesschau",
+      vote_average: 6.9,
+      vote_count: 193,
+    },
+    {
+      adult: false,
+      backdrop_path: "/zW0v2YT74C6tRafzqqBkfSqLAN0.jpg",
+      genre_ids: [10759, 10765],
+      id: 52814,
+      origin_country: ["US"],
+      original_language: "en",
+      original_name: "Halo",
+      overview:
+        "Depicting an epic 26th-century conflict between humanity and an alien threat known as the Covenant, the series weaves deeply drawn personal stories with action, adventure and a richly imagined vision of the future.",
+      popularity: 2974.225,
+      poster_path: "/hmHA5jqxN3ESIAGx0jAwV7TJhTQ.jpg",
+      first_air_date: "2022-03-24",
+      name: "Halo",
+      vote_average: 8.333,
+      vote_count: 2409,
+    },
+  ],
+};

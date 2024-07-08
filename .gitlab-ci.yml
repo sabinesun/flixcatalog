@@ -1,0 +1,73 @@
+stages: # List of stages for jobs, and their order of execution
+  - install
+  - build
+  - test
+
+cache: &node_cache
+  key:
+    files:
+      - "./yarn.lock"
+      - "**/package.json"
+  paths:
+    - ".yarn"
+    - "node_modules"
+    - "apps/**/node_modules"
+    - "e2e/**/node_modules"
+  policy: pull
+
+install front-end:
+  image: node:20
+  stage: install
+  script:
+    - yarn install --immutable
+  cache:
+    - <<: *node_cache
+      policy: pull-push
+
+build front-end:
+  image: node:20
+  needs:
+    - "install front-end"
+  stage: build
+  script:
+    - yarn build
+
+# and unCommente this for run unit test
+test unit front-end:
+  image: node:20
+  needs:
+    - "install front-end"
+  stage: test
+  script:
+    - yarn test
+
+test e2e front-end:
+  image: mcr.microsoft.com/playwright:v1.42.1-jammy
+  needs:
+    - "install front-end"
+    - "build front-end"
+  stage: test
+  script:
+    - yarn build
+    - yarn preview > applog.log  2>&1 &
+    - sleep 5
+    - yarn playwright test
+  artifacts:
+    paths:
+      - applog.log
+
+lint front-end:
+  image: node:20
+  needs:
+    - "install front-end"
+  stage: test
+  script:
+    - yarn lint
+
+typecheck front-end:
+  image: node:20
+  needs:
+    - "install front-end"
+  stage: test
+  script:
+    - yarn typecheck

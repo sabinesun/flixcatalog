@@ -1,0 +1,35 @@
+import { LangType } from "./fr";
+
+const ENLANG: LangType = {
+  home: "Home",
+  movie: "Movie",
+  serie: "Serie",
+  trendingMovie: "Trending movie this week",
+  discoverMovie: "Discover more movie",
+  trendingTv: "Trending serie this week",
+  discoverTv: "Discover more TV",
+  sortedBy: "Sorted by",
+  popularity: "Popularity",
+  topRated: "Top rated",
+  releaseDate: "Realease date",
+  runtime: "Runtime",
+  budget: "Budget",
+  revenue: "Revenue",
+  firstAirDate: "First air date",
+  lastAirDate: "Last air date",
+  episodeRuntime: "Episode runtime ",
+  numberOfSeasons: "Number of seasons",
+  numberOfEpisodes: "Number of episodes",
+  genres: "Genres",
+  rating: "Rating",
+  votes: "votes",
+  overview: "Overview",
+  moreInfo: "More Info",
+  all: "All",
+  noImageAvailable: "No image available",
+  genre: "Genre",
+  noResult: "No result",
+  movieTv: "Movie, Tv shows",
+};
+
+export default ENLANG;
